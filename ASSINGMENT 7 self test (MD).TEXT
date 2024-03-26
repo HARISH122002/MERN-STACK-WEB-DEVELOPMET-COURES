@@ -1,0 +1,190 @@
+HTML
+
+WHAT IS HTML
+
+ Hypertext Markup Language,CREATE A WEB PAGE WITH HTML TAGS
+
+WHY HTML IS USED
+
+TO BE CREATE A WEBPAGE AND TO BE CREATE & EDIT ALL TEXT CONTENT 
+
+WHAT IS EMMET ?
+
+IS A TOOLKIT THAT HELPS TO CREATE A STRUCTURE FOR EXAMPLE TABLE CONTENT, LIST CONTENT,ETC
+
+WHAT IS SHORT CUT CREATE of Emmet Boiler plate of HTML ?
+
+html:5
+
+
+
+WHAT STRUCTURE OF HTML ?
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+
+
+</body>
+
+
+
+</html>
+WHAT IS HEAD TAG
+defines the head section of a document, which contains metadata, or data about data .
+meta-information about the HTML document
+
+WHAT IS HEAD & LIST SOME TAGS COME INSIDE HEAD ?
+* defines the head section of a document, which contains metadata, or data about data.
+
+<tittle></tittle>
+
+<meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale-1.0">
+        <title>DOCUMENT</title>
+
+        <link rel="stylesheet" href="/style.css">
+
+WHAT IS BODY TAG
+
+* content of the web page, such as text, images, links, and other elements
+
+WHAT IS BODY & LIST SOME TAGS COMES INSIDE BODY
+* content of the web page, such as text, images, links, and other elements
+
+<h1></h1> to <h6></h6>
+<p></p> in <strong></strong>
+<button></button>
+
+
+IMPORTANT 3 ELEMENTS OR TAGS
+
+HEADING : <h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+HEADING H1 - H6 EXAMPLE
+PARGRAPH : <p></p>
+
+EXAMPLE:<p>contains metadata, or data about data. This information is not displayed on the page, but is used by browsers and search engines. The head tag typically includes the following elements: Document title, Links to stylesheets or scripts, Meta tags, and Base element</p>
+BUTTON :<button></button>
+EXAMPLE :<button>sign up</button>
+WHAT IS DIFFERENT B/W ELEMENTS & TAGS IN HTML
+
+a tag is the opening and closing syntax that will be run
+
+a element is a import content its like any think image , audio ,video etc
+
+
+TAG - a tag is the opening and closing syntax to be run
+      for EXAMPLE <img/>
+
+ELEMENTS - a element is a import content its like any think 
+          for EXAMPLE image , audio ,video etc
+
+
+CSS
+WHAT IS CSS ?
+
+Cascading Style Sheets,
+to be make a design, color,style etc
+
+
+WHY IS CSS
+
+CSS helps developers change the linear layout of a page without changing its visual layout. This is important because screen readers access web content in the linear reading order. CSS also allows for the separation of content and presentation, including layout, colors, and fonts.
+
+
+HOW TO CONNECT HTML & CSS ?
+
+* <link rel="stylesheet" href="/style.css">
+ its a connecting tag of html & css
+
+
+TAG USED - <link rel="stylesheet" href="/style.css">
+Emmet Short cut - link:css
+HOW TO GET FONT & COLOR , IMAGE, CDN
+
+💡 Fonts - WEBSITE LINK - google fonts = ( https://fonts.google.com/)
+
+💡 Color - WEBSITE LINK - pick colors  = (https://www.google.com/search?q=pick+color&sca_esv=6046820b85816b8d&sca_upv=1&rlz=1C1VDKB_enIN1098IN1101&sxsrf=ACQVn0-iz-y6ZWBwwhCXNoykYqtTGuyM-Q%3A1711460831030&ei=39ECZrm3AYzgseMPraSaiAQ&oq=pick+c&gs_lp=Egxnd3Mtd2l6LXNlcnAiBnBpY2sgYyoCCAEyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyBxAjGOoCGCcyExAAGIAEGIoFGEMY6gIYtALYAQEyExAAGIAEGIoFGEMY6gIYtALYAQEyExAAGIAEGIoFGEMY6gIYtALYAQEyExAAGIAEGIoFGEMY6gIYtALYAQEyExAAGIAEGIoFGEMY6gIYtALYAQEyExAAGIAEGIoFGEMY6gIYtALYAQEyExAAGIAEGIoFGEMY6gIYtALYAQEyExAAGIAEGIoFGEMY6gIYtALYAQEyExAAGIAEGIoFGEMY6gIYtALYAQEyExAAGIAEGIoFGEMY6gIYtALYAQFIzjlQ5wdY3ypwAngAkAEAmAEAoAEAqgEAuAEDyAEA-AEBmAICoAIzqAIUwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAOYAyGIBgGQBgq6BgYIARABGAGSBwEyoAcA&sclient=gws-wiz-serp)
+
+
+💡 IMAGE - WEBSITE LINK - google images =(https://www.google.com/search?q=google+image&sca_esv=6046820b85816b8d&sca_upv=1&rlz=1C1VDKB_enIN1098IN1101&sxsrf=ACQVn0-ajKYErod_LtRsCvZu3ew_FnpcvQ%3A1711460986165&ei=etICZqXjCae5seMPwP2qoA8&ved=0ahUKEwiliIKBiZKFAxWnXGwGHcC-CvQQ4dUDCBA&uact=5&oq=google+image&gs_lp=Egxnd3Mtd2l6LXNlcnAiDGdvb2dsZSBpbWFnZTIOEAAYgAQYigUYkQIYsQMyChAAGIAEGBQYhwIyCxAAGIAEGLEDGIMBMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIIEAAYgAQYsQMyBRAAGIAEMgUQABiABEjaEVAoWNAHcAB4AZABAZgBpw2gAbsUqgELMy0xLjAuMS44LTG4AQPIAQD4AQGYAgKgAr4HmAMAkgcFMy0xLjGgB8kQ&sclient=gws-wiz-serp)
+
+
+💡 CDN - WEBSITE LINK - (https://www.google.com/search?q=CDN+-+WEBSITE+LINK+&sca_esv=6046820b85816b8d&sca_upv=1&rlz=1C1VDKB_enIN1098IN1101&sxsrf=ACQVn0-P5xPXMh7_H9LmCOISXZqqwhFSdg%3A1711461090543&ei=4tICZonVIODgseMP9aqguAY)
+
+BASIC CSS FAMILY
+
+Text family: is not a tag
+font-family: font-family: "Roboto";
+REAMING ALL
+Color & Background family:
+color:(select color);
+
+color: color : red;
+REAMING ALL
+Box model:
+
+width and height: width:100px; and height:100px;
+
+margin 
+
+padding 
+
+boder 
+
+REAMING ALL
+
+WHEN TO USE BACKGROUND IMG VS IMG TAG
+
+Background imag tag = (background-image: url(/ASSETS/VAPORWAVE-CHILL-LO-FI-VIBE-L_692023.png);)
+
+image tag = single image import used to this tag(img src="/ASSETS/VAPORWAVE-CHILL-LO-FI-VIBE-L_692023.png" alt="img" height="300px"/>)
+
+image tag = multipe image import used to this tag(<picture>
+        <source srcset="ASSETS/VAPORWAVE-CHILL-LO-FI-VIBE-L_692023.png" media="(min-width:700px)"/>
+
+        <source srcset="ASSETS/VAPORWAVE-CHILL-LO-FI-VIBE-L_692023.png" media="(min-width:400px)"/>
+
+        <source srcset="ASSETS/VAPORWAVE-CHILL-LO-FI-VIBE-L_692023.png" media="(min-width:100px)"/>
+
+        <img src="/ASSETS/VAPORWAVE-CHILL-LO-FI-VIBE-L_692023.png">
+
+
+</picture>)
+LAYOUT
+
+It's a blueprint that uses HTML tags to customize web design elements and arrange web pages in a well-defined manner
+
+FLEX
+
+The flex CSS  property sets how a flex item will grow or shrink to fit the space available in its flex containe
+
+WITH JUSTIFY CONTENT,ALIGN ITEMS,FLEX,FLEX WRAP,ORDER
+GRID
+content- its nothing but all the given elements to represent is content
+align item- arrange property for exmaple fix the content with suitable place
+flex- flex CSS  property sets how a flex item will grow or shrink to fit the space available in its flex containe
+flex wrap-sets whether flex items are forced onto one line or can wrap onto multiple lines. If wrapping is allowed, it sets the direction that lines are stacked.
+order-element or content arrange in order
+grid-its  property that defines the relationship between the size, position, and layers of parts of a control built from HTML primitives
+
+
+WHAT TAILWIND
+
+Tailwind CSS is a CSS framework that allows users to build websites without leaving their HTML. It provides utility classes that can be used to create designs, such as controlling color, layout, spacing, typography, and shadows. Tailwind CSS also automatically removes unused CSS when building for production. 
+
+tailwind
+
+
